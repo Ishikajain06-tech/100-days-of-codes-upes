@@ -8,6 +8,7 @@
 *****
 ***
 *
+    
 #include <stdio.h>
 
 int main() {
@@ -21,7 +22,6 @@ int main() {
         printf("\n");
     }
 
-    // Lower inverted pyramid
     for (i = 4; i >= 1; i--) {
         for (space = 5; space > i; space--)   
             printf(" ");
